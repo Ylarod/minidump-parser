@@ -1,0 +1,17 @@
+[package]
+name = "minidump-parser"
+version = "1.0.0"
+edition = "2024"
+authors = ["Ylarod <me@ylarod.cn>"]
+description = "A CLI tool for parsing Qualcomm minidump/rawdump files"
+license = "GPL-2.0-only"
+repository = "https://github.com/Ylarod/minidump-parser"
+keywords = ["qualcomm", "minidump", "rawdump", "crash-dump", "embedded"]
+categories = ["command-line-utilities", "embedded", "parsing"]
+readme = "README.md"
+rust-version = "1.85"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+memmap2 = "0.9"
