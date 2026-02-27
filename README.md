@@ -38,4 +38,4 @@ minidump-parser <rawdump> gen-info [out_file]
 
 ## License
 
-GPL-2.0-only
+Apache License 2.0
